@@ -1,0 +1,28 @@
+{
+  "name": "uaa-auth-bearer-token",
+  "version": "1.0.0",
+  "description": "creates a token for uaa",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/surekhakolekar/uaa-auth-bearer-token.git"
+  },
+  "author": "surekha kolekar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/surekhakolekar/uaa-auth-bearer-token/issues"
+  },
+  "homepage": "https://github.com/surekhakolekar/uaa-auth-bearer-token#readme",
+  "devDependencies": {
+    "@types/pluralize": "0.0.29",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "pluralize": "^7.0.0",
+    "request": "^2.88.0"
+  }
+}
